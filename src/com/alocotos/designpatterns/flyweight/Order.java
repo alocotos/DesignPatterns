@@ -11,7 +11,7 @@ public class Order {
 	}
 	
 	void processOrder() {
-		System.out.println("Odering: " + item + " for order number: " + orderNumber);
+		System.out.println("Ordering: " + item + " for order number: " + orderNumber);
 	}
 
 }

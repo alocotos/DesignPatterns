@@ -4,7 +4,7 @@ public class SimpleSandwhich implements Sandwhich {
 
 	@Override
 	public String make() {
-		return "Simple Sandwhich";
+		return "Bread";
 	}
 
 }

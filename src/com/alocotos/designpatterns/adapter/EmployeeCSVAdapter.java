@@ -10,6 +10,7 @@ public class EmployeeCSVAdapter implements Employee {
 
 	@Override
 	public String getId() {
+		//Converts the int to a String, to make it match our Employee
 		return employeeFromCSV.getId() + "";
 	}
 

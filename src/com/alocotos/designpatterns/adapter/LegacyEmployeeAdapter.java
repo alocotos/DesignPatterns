@@ -10,6 +10,7 @@ public class LegacyEmployeeAdapter implements Employee {
 
 	@Override
 	public String getId() {
+		//Maps the correct field in LegacyEmployee to Employee. Different field names are no issue.
 		return legacyEmployee.getEmpCode();
 	}
 

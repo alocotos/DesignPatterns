@@ -18,10 +18,12 @@ public class EmployeeClient {
 		
 		LegacyEmployee legacyEmployee = new LegacyEmployee("aabb11","Matt","Jenkins","mjenks@email.net");
 		
+		//We are able to add LegacyEmployees using the LegacyEmployeeAdapter 
 		employees.add(new LegacyEmployeeAdapter(legacyEmployee));
 		
 		EmployeeCSV employeeFromCSV = new EmployeeCSV("2,Andy,Smith,asmith@email.com");
 		
+		//Same for CSVEmployees, Any new or old type of Employee can be added by creating an Adapter for that Object
 		employees.add(new EmployeeCSVAdapter(employeeFromCSV));
 		
 		return employees;

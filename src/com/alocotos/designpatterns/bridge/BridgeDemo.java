@@ -8,6 +8,7 @@ public class BridgeDemo {
 		Formatter printFormatter = new PrintFormatter();
 		Printer moviePrinter = new MoviePrinter(movie);
 		
+		//Each Printer takes a Formatter, so it's just a matter of matching the type of printer to the type of format we want.
 		String printerMaterial = moviePrinter.print(printFormatter);
 		
 		System.out.println(printerMaterial);
@@ -20,6 +21,7 @@ public class BridgeDemo {
 		System.out.println(htmlMaterial);
 		
 		//If we wanted to create a new type of Printer for a new type of Media we could make a Book Printer and a Book, then use one of the given Formatters or make a new one.
+		//I.E.
 		//Printer bookPrinter = new BookPrinter(book);
 		
 	}

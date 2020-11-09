@@ -9,13 +9,8 @@ class Item {
 		this.name = name;
 	}
 	
-	public String toSteing() {
-		return name;
-	}
-
-	@Override
 	public String toString() {
-		return "Item [name=" + name + "]";
+		return name;
 	}
 	
 	
