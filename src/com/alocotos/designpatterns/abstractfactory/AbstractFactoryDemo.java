@@ -4,7 +4,7 @@ public class AbstractFactoryDemo {
 
 	public static void main(String[] args) {
 		
-		//All we need is a credit Score, and a Type of card. We dont need to know whats going on under the hood.
+		//All we need is a credit Score, and a Type of card. We don't need to know what's going on under the hood.
 		CreditCardFactory abstractFactory = CreditCardFactory.getCreditCardFactory(775);
 		
 		//The correct factory is returned, and the concrete card type is returned based on this score.
@@ -18,8 +18,6 @@ public class AbstractFactoryDemo {
 		
 		System.out.println(card2.getClass());
 		
-		
-
 	}
 
 }
